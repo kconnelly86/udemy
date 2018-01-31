@@ -329,6 +329,8 @@ outerFunction();
 //end
 */
 
+
+/*
 //start
 //Dialog Boxes
 // giving the confirm box an if statement gives the 'ok','cancel' a written response in the browser.
@@ -339,8 +341,73 @@ outerFunction();
  	} else {
  		document.write("we will not send you mail");
  	}
+//end
+*/
+
+/*
+//start
+//data types and objects, using 'typeof' keyword
+
+var x = 'hello';
+alert(typeof(x));
+//alerts 'string'
+
+var x = new String('hello');
+alert(typeof(x));
+
+ //list of built in object constructors in JS
+
+ var obj1 = new Object(); //new Object as object
+ var obj2 = new String(); //new String as object
+ var obj3 = new Number(); //new Number as object
+ var obj4 = new Boolean(); //new Boolean as object
+ var obj5 = new Array();  //new Array as object
+ var obj6 = new RegExp(); //new RegExp as object
+ var obj7 = new Function(); //new Function as object
+ var obj8 = new Date(); //new Date as object  
+//end
+*/
 
 
+//start
+//objects
+//everything is an object in JS
+//Properties are data related to the object
+//Methods are actions to be performed with object on its data.
+/*
+ var person = new Object();
+ //person is the property with name value pairs like below
+ person.firstName = 'kyle';
+ person.lastName = 'connelly';
+ person.age = 31;
+ person.height = 6;
+ person.fullName = function() {
+ 	return ( person.firstName + " " + person.lastName);
+ }
+ alert(person.firstName);
+ alert(person['age']);
+ alert(person.fullName());
+*/
+
+// creating an object using an object constructor
+function Person(fName, lName, age, hg) {
+	this.firstName = fName;
+	this.lastName = lName;
+	this.age = age;
+	this.height = hg;
+	this.fullName = function() {
+		return (this.firstName + ' ' + this.lastName);
+	}
+ alert(fName);
+ alert(age);
+ alert(this.fullName());
+}
+
+var myBrother = new Person('russel', 'brown', 25, 5.5);
+var mySister = new Person('sis', 'brown', 15, 4.3);
+
+
+//end
 
 
 
