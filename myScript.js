@@ -389,6 +389,7 @@ alert(typeof(x));
  alert(person.fullName());
 */
 
+/*
 // creating an object using an object constructor
 function Person(fName, lName, age, hg) {
 	this.firstName = fName;
@@ -406,9 +407,23 @@ function Person(fName, lName, age, hg) {
 var myBrother = new Person('russel', 'brown', 25, 5.5);
 var mySister = new Person('sis', 'brown', 15, 4.3);
 
+//end
+*/
+
+
+/*
+//start
+//date and time
+
+var rightNow = new Date();
+document.write(rightNow);
 
 //end
+*/
 
+
+//start
+//end
 
 
 
