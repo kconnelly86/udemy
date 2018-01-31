@@ -329,7 +329,16 @@ outerFunction();
 //end
 */
 
+//start
+//Dialog Boxes
+// giving the confirm box an if statement gives the 'ok','cancel' a written response in the browser.
+ var x = confirm("do you want to receive mail");
+ 	if ( x ) {
+ 		document.write("we will send you mail");
 
+ 	} else {
+ 		document.write("we will not send you mail");
+ 	}
 
 
 
