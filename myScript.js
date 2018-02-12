@@ -484,11 +484,24 @@ document.write(rightNow);
 
 // document.write(numberCheck + " is not a valid number: " + isNaN(numberCheck) + "<br>");
 
+// end
+
+// start
+// browser object model
+// global variable
+// var x = 15;
+// alert(window.x);
+
+// function y() {
+// 	document.write('Global function invoked');
+// }
+// window.y();
+// alert("alert invoked without window object");
+// window.alert("alert invoked using window object");
+
 
 
 // end
-
-
 
 
 
