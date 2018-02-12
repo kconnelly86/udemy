@@ -424,27 +424,69 @@ document.write(rightNow);
 
 //start
 // joining arrays
-var listOfNumber1 = [1, 2, 3];
-var listOfNumber2 = [4, 5, 6];
+// var listOfNumber1 = [1, 2, 3];
+// var listOfNumber2 = [4, 5, 6];
 
-var allNum = listOfNumber1.concat(listOfNumber2);
-document.write(allNum + "<br>");
+// var allNum = listOfNumber1.concat(listOfNumber2);
+// document.write(allNum + "<br>");
 
-// loop through array
-var myCars = ["bmw", "merc", "ford"];
-for (var i = 0; i < myCars.length; i++) {
-	document.write(myCars[i] + "<br>");
-}
+// // loop through array
+// var myCars = ["bmw", "merc", "ford"];
+// for (var i = 0; i < myCars.length; i++) {
+// 	document.write(myCars[i] + "<br>");
+// }
+// //  array objects
+// var myCars = [
+// 	{model:'bmw', year: 2016},
+// 	{model: 'merc', year:1234},
+// 	{model: 'ford', year: 1886}
+// ];
 
+// for(var i = 0; i < myCars.length; i++) {
+// 	var myCar = "";
+// 	for ( var cp in myCars[i]) {
+// 		myCar = myCar + myCars[i][cp];
+
+// 	}
+// 	document.write(myCar  + '<br>');
+// }
 
 //end
 
+// start
+// regex
+// var regExp1 = new RegExp('abcd');
+
+// // alt syntax
+// var regExp2 = /abcd/;
+
+// var strToSearch = 'abc';
+
+// var matchFound = regExp2.test(strToSearch);
+
+// alert(matchFound);
+// end
+
+// start
+// number type and number
+// var n = new Number(15);
+
+// document.write(n + "<br>");
+
+// document.write("Primitive value" + n.valueOf() + "<br>");
+
+// // create number just by assigning to variable
+// var n = 15.5;
+// document.write(n + "<br>");
+
+// // check for valid number
+// var numberCheck =  20 + "t";
+
+// document.write(numberCheck + " is not a valid number: " + isNaN(numberCheck) + "<br>");
 
 
 
-
-
-
+// end
 
 
 
