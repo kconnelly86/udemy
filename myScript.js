@@ -423,6 +423,20 @@ document.write(rightNow);
 
 
 //start
+// joining arrays
+var listOfNumber1 = [1, 2, 3];
+var listOfNumber2 = [4, 5, 6];
+
+var allNum = listOfNumber1.concat(listOfNumber2);
+document.write(allNum + "<br>");
+
+// loop through array
+var myCars = ["bmw", "merc", "ford"];
+for (var i = 0; i < myCars.length; i++) {
+	document.write(myCars[i] + "<br>");
+}
+
+
 //end
 
 
