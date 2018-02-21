@@ -502,8 +502,14 @@ document.write(rightNow);
 
 
 // end
-
-
+//start
+//navigator 
+document.write("Name: " + navigator.appName + "<br>" + 
+"Version: " + navigator.appVersion + "<br>" + 
+"Code Name: " + navigator.appCodeName + "<br>" + 
+"Platform: " + navigator.platform + "<br>"
+);
+//end
 
 
 
