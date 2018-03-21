@@ -1,21 +1,21 @@
 /* CSS variables from the medium post */
 
 
-.btn {
+/* .btn {
     padding: 2rem 4rem;
     border: 2px solid var(--color, black);
     background: transparent;
     font-size: 0.6em;
     border-radius: 2px;
-}
+} */
 
 /*on hover */
 
-.btn:hover {
+/* .btn:hover {
     cursor: pointer;
     background: var(--color, black);
     color: white;
-}
+} */
 
 /* variations without variables*/
 
@@ -30,14 +30,14 @@
 /* variants with variables */
 /* declaring the different color btns */
 
-.btn.red {
+/* .btn.red {
     --color: red
-}
+} */
 
-.btn.blue {
+/* .btn.blue {
     --color: blue
-}
+} */
 
-.btn.green {
+/* .btn.green {
     --color: green
-}
+} */
