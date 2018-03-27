@@ -18,10 +18,10 @@ CSS variables from the medium post */
 } 
 
 /* variations without variables*/
-
- .btn.red {
+/* allows red border around red button */
+ /* .btn.red {
     border-color: red
-}
+} */
 
 .btn.red:hover {
     background: red
